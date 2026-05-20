@@ -1,0 +1,20 @@
+{
+  "name": "bank-spending-report",
+  "owner": {
+    "name": "Michael Ludvig",
+    "url": "https://github.com/mludvig"
+  },
+  "metadata": {
+    "description": "Generate printable HTML spending analysis reports from bank CSV exports",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bank-spending-report",
+      "description": "Analyse bank CSVs and produce a self-contained HTML spending report",
+      "source": "./",
+      "strict": false,
+      "skills": ["./"]
+    }
+  ]
+}
