@@ -6,15 +6,7 @@ Works with any bank's CSV export — the skill asks you about the column layout 
 
 ## Installation
 
-### Option 1 — Git clone (recommended)
-
-```bash
-git clone https://github.com/mludvig/bank-spending-report ~/.claude/skills/bank-spending-report
-```
-
-That's it. Claude Code picks up skills from `~/.claude/skills/` automatically.
-
-### Option 2 — Plugin marketplace
+### Option 1 — Plugin marketplace (recommended)
 
 In Claude Code:
 
@@ -22,6 +14,14 @@ In Claude Code:
 /plugin marketplace add mludvig/bank-spending-report
 /plugin install bank-spending-report@bank-spending-report
 ```
+
+### Option 2 — Git clone
+
+```bash
+git clone https://github.com/mludvig/bank-spending-report ~/.claude/skills/bank-spending-report
+```
+
+Claude Code picks up skills from `~/.claude/skills/` automatically.
 
 ### Option 3 — Manual download
 
